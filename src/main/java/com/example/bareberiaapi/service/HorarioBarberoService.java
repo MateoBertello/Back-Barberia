@@ -1,7 +1,7 @@
-package service;
+package com.example.bareberiaapi.service;
 
-import entity.HorarioBarbero;
-import repository.HorarioBarberoRepository;
+import com.example.bareberiaapi.entity.HorarioBarbero;
+import com.example.bareberiaapi.repository.HorarioBarberoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

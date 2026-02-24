@@ -1,6 +1,6 @@
-package repository;
+package com.example.bareberiaapi.repository;
 
-import entity.Turno;
+import com.example.bareberiaapi.entity.Turno;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.time.LocalDateTime;
 

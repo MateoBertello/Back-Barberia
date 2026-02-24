@@ -1,7 +1,7 @@
-package controller;
+package com.example.bareberiaapi.controller;
 
-import entity.Usuario;
-import service.UsuarioService;
+import com.example.bareberiaapi.entity.Usuario;
+import com.example.bareberiaapi.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

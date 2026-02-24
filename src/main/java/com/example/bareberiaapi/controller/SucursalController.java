@@ -1,7 +1,7 @@
-package controller;
+package com.example.bareberiaapi.controller;
 
-import entity.Sucursal;
-import service.SucursalService;
+import com.example.bareberiaapi.entity.Sucursal;
+import com.example.bareberiaapi.service.SucursalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

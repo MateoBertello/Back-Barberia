@@ -1,7 +1,7 @@
-package controller;
+package com.example.bareberiaapi.controller;
 
-import entity.HorarioBarbero;
-import service.HorarioBarberoService;
+import com.example.bareberiaapi.entity.HorarioBarbero;
+import com.example.bareberiaapi.service.HorarioBarberoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

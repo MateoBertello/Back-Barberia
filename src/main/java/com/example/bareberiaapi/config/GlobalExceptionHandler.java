@@ -1,4 +1,4 @@
-package config;
+package com.example.bareberiaapi.config;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

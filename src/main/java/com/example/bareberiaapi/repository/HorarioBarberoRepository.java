@@ -1,6 +1,6 @@
-package repository;
+package com.example.bareberiaapi.repository;
 
-import entity.HorarioBarbero;
+import com.example.bareberiaapi.entity.HorarioBarbero;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package service;
+package com.example.bareberiaapi.service;
 
-import entity.Usuario;
-import repository.UsuarioRepository;
+import com.example.bareberiaapi.entity.Usuario;
+import com.example.bareberiaapi.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

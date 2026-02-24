@@ -1,7 +1,7 @@
-package service;
+package com.example.bareberiaapi.service;
 
-import entity.Turno;
-import repository.TurnoRepository;
+import com.example.bareberiaapi.entity.Turno;
+import com.example.bareberiaapi.repository.TurnoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

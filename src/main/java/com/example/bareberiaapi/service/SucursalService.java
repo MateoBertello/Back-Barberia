@@ -1,7 +1,7 @@
-package service;
+package com.example.bareberiaapi.service;
 
-import entity.Sucursal;
-import repository.SucursalRepository;
+import com.example.bareberiaapi.entity.Sucursal;
+import com.example.bareberiaapi.repository.SucursalRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

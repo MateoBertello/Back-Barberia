@@ -1,4 +1,4 @@
-package entity;
+package com.example.bareberiaapi.entity;
 
 import jakarta.persistence.*;
 import java.time.LocalTime;
