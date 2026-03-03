@@ -2,7 +2,6 @@ package com.example.bareberiaapi.entity;
 
 import jakarta.persistence.*;
 
-
 @Entity
 @Table(name = "usuarios")
 public class Usuario {
@@ -17,6 +16,10 @@ public class Usuario {
     @Column(nullable = false, unique = true, length = 150)
     private String email;
 
+    // 🌟 ¡EL CAMPO NUEVO PARA LA SEGURIDAD! 🌟
+    @Column(nullable = false)
+    private String contrasena;
+
     @Column(length = 20)
     private String telefono;
 
@@ -26,7 +29,7 @@ public class Usuario {
     @Column(nullable = false)
     private Boolean activo = true;
 
-    // --- GETTERS Y SETTERS (Obligatorios para que Postman lea el JSON) ---
+    // --- GETTERS Y SETTERS ---
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
@@ -35,6 +38,10 @@ public class Usuario {
 
     public String getEmail() { return email; }
     public void setEmail(String email) { this.email = email; }
+
+    // 🌟 GETTER Y SETTER DE CONTRASEÑA 🌟
+    public String getContrasena() { return contrasena; }
+    public void setContrasena(String contrasena) { this.contrasena = contrasena; }
 
     public String getTelefono() { return telefono; }
     public void setTelefono(String telefono) { this.telefono = telefono; }
